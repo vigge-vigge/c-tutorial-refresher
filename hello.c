@@ -71,7 +71,7 @@ int main ()
     }
     else
     {
-        printf("You are not a student\n");
+        printf("You are not a student in this school\n");
     }
 
     return (0);
