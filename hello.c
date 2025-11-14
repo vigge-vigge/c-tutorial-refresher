@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+
+// Variables
 // int main() {
 
 //     int age = 25;
@@ -50,29 +52,102 @@
 //     return (0);
 // }
 
+// int main ()
+// {
+//     bool isOnline = false;
+//     bool isStudent = true;
+//     bool forSale = false;
+    
+//     // printf("%d\n", isOnline);
+//     if(isOnline)
+//     {
+//         printf("Victor is Online\n");
+//     }
+//     else
+//     {
+//         printf("Victor is offline\n");
+//     }
+
+
+//     if (isStudent)
+//     {
+//         printf("You are a student\n");
+//     }
+//     else
+//     {
+//         printf("You are not a student in this school\n");
+//     }
+
+
+//     if (forSale)
+//     {
+//         printf("This item is for sale.\n");
+//     }
+//     else
+//     {
+//         printf("This item is not for sale.\n");
+//     }
+
+//     return (0);
+// }
+
+// Format Specifiers
+
+
+// int main ()
+// {
+//     int age = 23;
+//     float price = 18.99;
+//     double pi = 3.14159;
+//     char currency = '$';
+//     char name[] = "Victor";
+//     int num1 = 1;
+//     int num2 = 10;
+//     int num3 = 100;
+
+//     printf("%d\n", age);
+//     printf("%f\n", price);
+//     printf("%lf\n", pi);
+//     printf("%c\n", currency);
+//     printf("%s\n", name);
+//     printf("%03d\n", num1);
+//     printf("%03d\n", num2);
+//     printf("%03d\n", num3);
+
+//     return (0);
+// }
+
+// int main ()
+// {
+//     float price1 = 19.99;
+//     float price2 = 1.50;
+//     float price3 = -100.00;
+
+//     printf("%.2f\n", price1);
+//     printf("%.2f\n", price2);
+//     printf("%.2f\n", price3);
+
+//     return (0);
+// }
+
+
+// Arethmetic operators
 int main ()
 {
-    bool isOnline = false;
-    bool isStudent = true;
-    
-    // printf("%d\n", isOnline);
-    if(isOnline)
-    {
-        printf("Victor is Online\n");
-    }
-    else
-    {
-        printf("Victor is offline\n");
-    }
+    int x = 10;
+    int y = 3;
+    int z = 0;
+    // int x = 2;
+    // float y = 3;
+    // float z = 0;
 
-    if (isStudent)
-    {
-        printf("You are a student\n");
-    }
-    else
-    {
-        printf("You are not a student in this school\n");
-    }
+    // z = x + y;
+    // z = x - y;
+    // z = x * y;
+    // z = x / y;
+    z = x % y;
+    printf("%d", z);
+    // printf("%f", z);
 
     return (0);
 }
