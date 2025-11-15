@@ -132,11 +132,11 @@
 
 
 // Arethmetic operators
-int main ()
-{
-    int x = 10;
-    int y = 3;
-    int z = 0;
+// int main ()
+// {
+//     int x = 10;
+//     int y = 3;
+//     int z = 0;
     // int x = 2;
     // float y = 3;
     // float z = 0;
@@ -145,9 +145,35 @@ int main ()
     // z = x - y;
     // z = x * y;
     // z = x / y;
-    z = x % y;
-    printf("%d", z);
-    // printf("%f", z);
+    // z = x % y;
+    // z = x % 3;
+
+    // x++;
+    // x--;
+
+    // x = x + 2;
+//     x += 2;
+//     printf("%d", x);
+//     // printf("%f", z);
+
+//     return (0);
+// }
+
+int main (void)
+{
+    int age;
+    float gpa;
+    char grade;
+    char name[30] = "";
+
+    age = 0;
+    gpa = 0.0f;
+    grade = '\0';
+
+    printf("%d\n", age);
+    printf("%f\n", gpa);
+    printf("%c\n", grade);
+    printf("%s\n", name);
 
     return (0);
 }
